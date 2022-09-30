@@ -1,5 +1,5 @@
 homepage: "https://www.trustprofile.com"
 documentation: "https://docs.trustprofile.com/gtm"
 versions:
-  - sha: abc629f28f377e4474f1caaef8c4bbc84b7c6bca
-    changeNotes: Initial Version
+  - sha: 078eb07d11710f2ab61d431fbfbb10dc6aa37af8
+    changeNotes: Add metadata
