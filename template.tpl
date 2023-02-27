@@ -59,9 +59,7 @@ const logToConsole = require('logToConsole');
 const id = makeInteger(data['Shop ID']);
 const url = 'https://dashboard.trustprofile.com/sidebar.js?id=' + encodeUriComponent(id) + '&c=' + cachebuster(10, id);
 
-injectScript(url);
-
-data.gtmOnSuccess();
+injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
 
 function cachebuster(refreshMinutes, id) {
     var now = getTimestampMillis();
